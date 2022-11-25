@@ -1,0 +1,91 @@
+const patients = new Array({
+    name: 'Juan',
+    surname: 'Garcia',
+    age: 31,
+    diagnostic: 'Sars Covid-19',
+    ssnum: 'A12345'
+}, {
+    name: 'Sara',
+    surname: 'Garcia',
+    age: 33,
+    diagnostic: 'Diabetes',
+    ssnum: 'B12345'
+}, {
+    name: 'Jose',
+    surname: 'León',
+    age: 54,
+    diagnostic: 'Esguince',
+    ssnum: 'X12355'
+}, {
+    name: 'Antonia',
+    surname: 'Pérez',
+    age: 82,
+    diagnostic: 'Osteoporosis',
+    ssnum: 'K12265'
+}, {
+    name: 'Mary',
+    surname: 'Cooper',
+    age: 23,
+    diagnostic: 'Esguince',
+    ssnum: 'L12397'
+}, {
+    name: 'Isabel',
+    surname: 'Ayuso',
+    age: 44,
+    diagnostic: 'Sars Covid-19',
+    ssnum: 'Z72339'
+}, {
+    name: 'Mariano',
+    surname: 'Rajoy',
+    age: 73,
+    diagnostic: 'Sars Covid-19',
+    ssnum: 'Y42246'
+}, {
+    name: 'Lionel',
+    surname: 'Messi',
+    age: 36,
+    diagnostic: 'Tendinitis',
+    ssnum: 'B45328'
+}, {
+    name: 'Fernando',
+    surname: 'Alonso',
+    age: 39,
+    diagnostic: 'Tendinitis',
+    ssnum: 'J62328'
+}, {
+    name: 'Napoleon',
+    surname: 'Buonaparte',
+    age: 89,
+    diagnostic: 'Esguince',
+    ssnum: 'N62315'
+}, {
+    name: 'Aitor',
+    surname: 'Menta',
+    age: 65,
+    diagnostic: 'Osteoporosis',
+    ssnum: 'H52685'
+}, {
+    name: 'Cristobal',
+    surname: 'Colón',
+    age: 87,
+    diagnostic: 'Diabetes',
+    ssnum: 'D17635'
+}, {
+    name: 'Jesús',
+    surname: 'Cristo',
+    age: 33,
+    diagnostic: 'UCI',
+    ssnum: 'X67666'
+}, {
+    name: 'Lázaro',
+    surname: 'Betania',
+    age: 45,
+    diagnostic: 'UCI',
+    ssnum: 'L34675'
+}, {
+    name: 'Stevie',
+    surname: 'Wonder',
+    age: 72,
+    diagnostic: 'Ceguera',
+    ssnum: 'W91258'
+},)
