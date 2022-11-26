@@ -1,4 +1,4 @@
-const patients = new Array({
+const patient = new Array({
     name: 'Juan',
     surname: 'Garcia',
     age: 31,
