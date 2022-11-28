@@ -1,0 +1,9 @@
+:root {
+    --colorPrincipal: rgb(137, 169, 206);
+    --colorSecundario: white;
+    --fontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fontSize: 1em;
+    --border: 1px solid black;
+    --borderText: 1px 1px 1px black;
+
+}

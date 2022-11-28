@@ -7,41 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Immune Medical Center</title>
     <link rel="stylesheet" href="./css/style.css">
+
     <script src="./js/datos.js"></script>
 </head>
 
 <body>
     <div class="container mt-4">
+        <header>
+            <h1>IMMUNE MEDICAL CENTER</h1>
+
+        </header>
         <div class="row">
             <aside class="col-12 col-md-4 p-2">
                 <div class="card p-3">
-                    <form action="" id="registerForm">
-                        <div>
-                            <label class="form-label" for="name">Nombre</label>
-                            <input type="text" class="form-control" id="name" name="name">
-                        </div>
+                    <input class="form-control" type="text" id="user" placeholder="Introduzca nombre, apellido o Nº SS">
 
-                        <div>
-                            <label class="form-label" for="mail">Email</label>
-                            <input type="text" class="form-control" id="mail" name="mail">
-                        </div>
-
-                        <div>
-                            <label class="form-label" for="salary">Salario</label>
-                            <input type="number" class="form-control" id="salary" name="salary">
-                        </div>
-                        <input class="btn btn-danger mt-3" type="submit" value="Guardar">
-                    </form>
+                    <button id="btnUser" class="btn btn-info mt-3">BUSCAR</button>
                 </div>
 
-                <div class="card p-3 mt-3">
+                <div class="card p-3 my-5">
                     <input class="form-control" type="number" id="ageMin" placeholder="Introduzca edad mínima">
                     <input class="form-control my-2" type="number" id="ageMax" placeholder="Introduzca edad máxima">
                     <button id="btnAge" class="btn btn-info">FILTRAR</button>
                 </div>
+                <select id="DiagMenu" class="form-select" aria-label="Default select example">
+
+                    <option value="DIAGNÓSTICOS">DIAGNÓSTICOS</option>
+                </select>
+
+
             </aside>
 
-            <section id="patientList" class="col-12 col-md-8 p-2">
+            <section id="patientList" class="col-8 col-md-8 p-2">
 
             </section>
         </div>

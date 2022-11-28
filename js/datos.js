@@ -89,3 +89,4 @@ const patient = new Array({
     diagnostic: 'Ceguera',
     ssnum: 'W91258'
 },)
+
